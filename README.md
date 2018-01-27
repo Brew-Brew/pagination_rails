@@ -12,11 +12,11 @@
 
 <%= paginate @posts %>
 ```
-# rails g kaminari:config 명령어로 페이지네이션 갯수 정할수있음
+## rails g kaminari:config 명령어로 페이지네이션 갯수 정할수있음
 + 기본 25개
 + # config.window = 4 양옆 숫자
 
-# locales/en.yml
+## locales/en.yml
 + prev next 를 이전 다음과 같이 바꿀수있음
 ```
 en:
